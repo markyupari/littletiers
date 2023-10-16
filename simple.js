@@ -4,12 +4,30 @@ var adapter = new fs('db.json');
 var db      = low(adapter);
 
 // init the data store
-// ---------------------------
-// YOUR CODE
-
+db.defaults({posts: []}).write();
+db.set('posts', []).write();
 // add post
-// ----------------------------
-// YOUR CODE
+// db.get('posts')
+//      .push({
+//         id:1, 
+//         cost: 24.20,
+//         discountCode: 'APEN23',
+//         items: [
+//             'books',
+//             'food',
+//             'clothing'
+//         ],})
+//      .write()
+
+// db.get('posts')
+//     .push({id:3, title: 'new own', published: true})
+//     .write()
+
+// db.get('posts')
+//     .push({id:4, title: 'random', published: true})
+//     .write()
+
+console.log(db.get('posts').value());
 
 // count posts
 // ----------------------------

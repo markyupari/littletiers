@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "great",
+      "published": true
+    },
+    {
+      "id": 3,
+      "title": "new own",
+      "published": true
+    },
+    {
+      "id": 4,
+      "title": "random",
+      "published": true
+    },
+    {
+      "id": "1",
+      "title": "ping",
+      "published": "false"
+    },
+    {
+      "id": "11",
+      "title": "posting",
+      "published": "false"
+    },
+    {
+      "id": "10",
+      "title": "hello",
+      "published": "false"
+    },
+    {
+      "id": "13",
+      "title": "fixed",
+      "published": "true"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "cost": 24.2,
+      "discountCode": "APEN23",
+      "items": [
+        "books",
+        "food",
+        "clothing"
+      ]
+    }
+  ]
+}
